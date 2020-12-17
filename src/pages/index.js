@@ -1,9 +1,13 @@
 import React from "react";
 import "stylesheets/main.module.less";
-import classes from "stylesheets/index.module.less";
 import Nav from "components/Nav/Nav";
 import CTA from "components/CTA/CTA";
 import Experience from "components/Experience/Experience";
+import Ally from "components/Ally/Ally";
+import Home from "components/Home/Home";
+import ServicesIntro from "components/ServicesIntro/ServicesIntro";
+import Examples from "components/Examples/Examples";
+import Steps from "components/Steps/Steps";
 
 export default () => {
   return (
@@ -13,10 +17,12 @@ export default () => {
         description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
         canonical=""
       />
-      <div className={classes.container}>
-        <h1>hola</h1>
-      </div>
+      <Home />
+      <ServicesIntro />
+      <Examples />
+      <Steps />
       <Experience />
+      <Ally />
       <CTA />
     </>
   );
