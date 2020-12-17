@@ -9,9 +9,9 @@ export default () => {
   return (
     <>
       <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
+        title="THEA | Privacidad"
+        description="THEA | Materiales"
+        canonical="/privacidad"
       />
       <div className={classes.container}>
         <h1>Aviso de Privacidad</h1>

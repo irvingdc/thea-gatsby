@@ -12,15 +12,10 @@ import paper from "images/icons/paper.svg";
 import mail from "images/icons/mail-b.svg";
 import hours from "images/icons/24-hours.svg";
 
-
 export default () => {
   return (
     <>
-      <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
-      />
+      <Nav title="THEA | Cotizar" description="" canonical="/cotizar" />
       <div className={classes.container}>
         <h1>Guía para una cotización Exitosa</h1>
         <ul>

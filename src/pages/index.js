@@ -14,8 +14,8 @@ export default () => {
   return (
     <>
       <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
+        title="THEA - Soluciones en Lámina de Metal"
+        description="No importa el tamaño de tu proyecto, nosotros te ofrecemos diseño, ingeniería y tecnología aplicados en soluciones prácticas."
         canonical=""
       />
       <Home />

@@ -9,11 +9,7 @@ import materiales from "images/other/materiales.png";
 export default () => {
   return (
     <>
-      <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
-      />
+      <Nav title="THEA | Materiales" description="" canonical="/materiales" />
       <div className={classes.container}>
         <div>
           <img src={materiales} />

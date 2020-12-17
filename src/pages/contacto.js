@@ -7,11 +7,7 @@ import Footer from "components/Footer/Footer";
 export default () => {
   return (
     <>
-      <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
-      />
+      <Nav title="THEA | Contacto" description="" canonical="/contacto" />
       <ContactForm />
       <Footer />
     </>

@@ -16,11 +16,7 @@ import router from "images/icons/router.png";
 export default () => {
   return (
     <>
-      <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
-      />
+      <Nav title="THEA | Servicios" description="" canonical="/servicios" />
       <div className={classes.container}>
         <div>
           <div>

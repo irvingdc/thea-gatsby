@@ -15,11 +15,7 @@ import troqueles6 from "images/photos/troqueles-6.jpg";
 export default () => {
   return (
     <>
-      <Nav
-        title="Servicio Angelopolitano | Reparación y mantenimiento de línea blanca."
-        description="Reparación y mantenimiento profesional de línea blanca, refrigeración y aire acondicionado."
-        canonical=""
-      />
+      <Nav title="THEA | Troqueles" description="" canonical="/troqueles" />
       <div className={classes.container}>
         <div>
           <ul>
