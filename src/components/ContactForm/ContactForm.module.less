@@ -3,6 +3,24 @@
   background-size: cover;
   min-height: calc(100% + 64px);
   position: relative;
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    letter-spacing: 3px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    letter-spacing: 3px !important;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+    letter-spacing: 3px !important;
+  }
   > div:nth-child(1) {
     background-color: #363636;
     min-width: 450px;
@@ -140,4 +158,5 @@
 .arial,
 .arial * {
   font-family: Helvetica, Arial, Helvetica, sans-serif !important;
+  color: black !important;
 }

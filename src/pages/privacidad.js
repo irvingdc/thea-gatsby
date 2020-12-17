@@ -3,6 +3,7 @@ import "stylesheets/main.module.less";
 import classes from "stylesheets/privacy.module.less";
 import Nav from "components/Nav/Nav";
 import CTA from "components/CTA/CTA";
+import Footer from "components/Footer/Footer";
 
 export default () => {
   return (
@@ -241,6 +242,7 @@ export default () => {
         </p>
       </div>
       <CTA />
+      <Footer />
     </>
   );
 };

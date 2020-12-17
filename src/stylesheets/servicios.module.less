@@ -1,0 +1,98 @@
+.container {
+  position: relative;
+  background: white !important;
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  > div:first-child {
+    display: flex;
+    position: relative;
+    > div > div {
+      background: #f0d720;
+      color: white;
+      padding: 30px 60px;
+      width: 210px;
+      margin: 35px auto;
+      display: block;
+      position: sticky;
+      > div {
+        display: flex;
+        justify-content: space-between;
+        * {
+          font-family: headingBold;
+          font-size: 140px;
+          line-height: 118px;
+        }
+      }
+    }
+    > div:first-child {
+      background: url(images/photos/4-gray.jpg) no-repeat center;
+      background-size: cover;
+      width: 35%;
+      position: fixed;
+      display: inline-block;
+      background-attachment: fixed;
+      height: calc(100vh - 50px);
+      bottom: 0px;
+      z-index: 20;
+    }
+    > div:nth-child(2) {
+      width: 65%;
+      order: 1;
+      padding-left: 35%;
+      ul {
+        margin: 0px;
+        padding: 20px 20px 80px 50px;
+        li {
+          list-style-type: none;
+          display: flex;
+          align-items: flex-start;
+          font-size: 45px;
+          padding-top: 60px;
+          * {
+            color: #1a1a1a;
+          }
+          .number {
+            font-family: Helvetica, Arial, Helvetica, sans-serif !important;
+            letter-spacing: normal !important;
+          }
+          h2 {
+            font-size: 32px;
+            font-family: headingBold;
+            width: fit-content;
+            border-bottom: 14px solid #f0d720;
+            line-height: 1px;
+            padding-top: 24px;
+            padding-right: 16px;
+            margin-bottom: 8px;
+          }
+          h3 {
+            font-size: 22px;
+            font-family: headingBold;
+            padding: 10px 0px;
+          }
+          p {
+            font-size: 16px;
+            font-family: Helvetica, Arial, Helvetica, sans-serif !important;
+            letter-spacing: normal !important;
+            text-transform: none;
+          }
+          cursor: default;
+          img {
+            width: 50px;
+            background-color: #363636;
+            padding: 5px;
+            margin: 6px 20px 6px 6px;
+            height: 50px;
+            transition: all 0.2s;
+          }
+        }
+        li:nth-child(even) {
+          font-family: headingBold;
+        }
+      }
+    }
+  }
+}

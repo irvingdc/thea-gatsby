@@ -8,28 +8,28 @@ export default () => (
       <div className={classes.list}>
         <ul>
           <li>
-            <Link to="/servicios">Corte láser</Link>
+            <Link to="/servicios#corteLaser">Corte láser</Link>
           </li>
           <li>
-            <Link to="/servicios">Corte con agua</Link>
+            <Link to="/servicios#corteAgua">Corte con agua</Link>
           </li>
           <li>
-            <Link to="/servicios">Corte con sierra cinta</Link>
+            <Link to="/servicios#corteSierra">Corte con sierra cinta</Link>
           </li>
           <li>
-            <Link to="/servicios">Corte con cizalla</Link>
+            <Link to="/servicios#corteCizalla">Corte con cizalla</Link>
           </li>
           <li>
-            <Link to="/servicios">Corte plasma</Link>
+            <Link to="/servicios#cortePlasma">Corte plasma</Link>
           </li>
           <li>
-            <Link to="/servicios">Doblado</Link>
+            <Link to="/servicios#doblado">Doblado</Link>
           </li>
           <li>
-            <Link to="/servicios">Punzonado</Link>
+            <Link to="/servicios#punzonado">Punzonado</Link>
           </li>
           <li>
-            <Link to="/servicios">Router</Link>
+            <Link to="/servicios#router">Router</Link>
           </li>
         </ul>
       </div>

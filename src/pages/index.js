@@ -8,6 +8,7 @@ import Home from "components/Home/Home";
 import ServicesIntro from "components/ServicesIntro/ServicesIntro";
 import Examples from "components/Examples/Examples";
 import Steps from "components/Steps/Steps";
+import Footer from "components/Footer/Footer";
 
 export default () => {
   return (
@@ -24,6 +25,7 @@ export default () => {
       <Experience />
       <Ally />
       <CTA />
+      <Footer />
     </>
   );
 };
