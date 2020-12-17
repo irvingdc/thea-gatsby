@@ -3,7 +3,6 @@ import "stylesheets/main.module.less";
 import classes from "stylesheets/index.module.less";
 import Nav from "components/Nav/Nav";
 import CTA from "components/CTA/CTA";
-import Experience from "components/Experience/Experience";
 
 export default () => {
   return (
@@ -16,7 +15,6 @@ export default () => {
       <div className={classes.container}>
         <h1>hola</h1>
       </div>
-      <Experience />
       <CTA />
     </>
   );

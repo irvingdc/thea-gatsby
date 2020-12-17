@@ -1,0 +1,48 @@
+@import "./variables.less";
+@import (inline) "./fonts.css";
+body,
+html {
+  background: white;
+  font-weight: 500;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 3px;
+  * {
+    font-family: headingLight;
+  }
+}
+body {
+  padding-top: 50px;
+  background: #363636;
+  min-height: 100vh;
+  text-transform: uppercase;
+}
+* {
+  font-family: "headingBold", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+}
+@media (max-width: 950px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}

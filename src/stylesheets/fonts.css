@@ -1,0 +1,15 @@
+
+@font-face{
+    font-family: headingBold;
+    src: url('../fonts/heading-pro-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/heading-pro-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: headingLight;
+    src: url('../fonts/heading-pro-compressed-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/heading-pro-compressed-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

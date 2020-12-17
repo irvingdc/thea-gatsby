@@ -2,8 +2,8 @@ import React from "react";
 import "stylesheets/main.module.less";
 import classes from "stylesheets/index.module.less";
 import Nav from "components/Nav/Nav";
-import CTA from "components/CTA/CTA";
-import Experience from "components/Experience/Experience";
+import ContactForm from "components/ContactForm/ContactForm";
+import Footer from "components/Footer/Footer";
 
 export default () => {
   return (
@@ -14,10 +14,9 @@ export default () => {
         canonical=""
       />
       <div className={classes.container}>
-        <h1>hola</h1>
+        <ContactForm />
       </div>
-      <Experience />
-      <CTA />
+      <Footer />
     </>
   );
 };
